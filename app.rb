@@ -1,6 +1,5 @@
-# require 'erb/tilt'
+require 'tilt/erb'
 
 get "/" do
-  @time = Time.now
   erb :index
 end
