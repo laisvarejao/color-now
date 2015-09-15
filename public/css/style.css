@@ -6,6 +6,10 @@ body {
   transition: background-color 0.6s linear;
 }
 
+a {
+  color: #fff;
+}
+
 .content {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 100;
@@ -16,4 +20,8 @@ body {
 #time {
   font-size: 150px;
   border-bottom: 5px #fff solid;
+}
+
+.credit {
+  margin: 20px;
 }
