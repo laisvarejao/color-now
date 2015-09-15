@@ -15,8 +15,5 @@ body {
 
 #time {
   font-size: 150px;
-}
-
-#color {
-  font-size: 50px;
+  border-bottom: 5px #fff solid;
 }

@@ -5,11 +5,10 @@ function start() {
   var s = today.getSeconds();
   m = checkTime(m);
   s = checkTime(s);
-  
-  document.querySelector('#time').innerHTML = h + ":" + m + ":" + s;
-  
+    
   var color =  "#" + h + m + s;
-  changeColor(color);
+  document.querySelector('#time').innerHTML = color;
+  changeBackgroundColor(color);
 
   setTimeout(function() {
     start();
@@ -21,7 +20,6 @@ function checkTime(i) {
     return i;
 }
 
-function changeColor(color) {
-  document.querySelector('#color').innerHTML = color;
+function changeBackgroundColor(color) {
   document.body.style.background = color;
 }
